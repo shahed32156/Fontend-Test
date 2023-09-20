@@ -1,0 +1,114 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   }
+   
+   html,body {
+   
+       display: grid;
+   }
+   
+   h1 {
+   
+   
+       color: white;
+       padding: 15px;
+       font-family: cursive;
+       position: relative;
+       font-size: 30px;
+       margin-top: 7px;
+   }
+   
+   .user-panel {
+   
+      background-color: black;
+   }
+   
+   .my-link-style {
+   
+       color: white;
+       font-size: 20px;
+       font-weight: 500;
+       margin-left: 30px;
+       margin-right: 30px;
+       text-decoration: none;
+   }
+   
+   .my-link-style:hover {
+      text-decoration: none;
+      color: rgb(7, 176, 176);
+   
+     
+   }
+   
+   .search {
+   
+      margin-top: 27px;
+      padding: 7px;
+      width: 400px;
+      border-radius: 5px;
+      border: none;
+   }
+   
+   .search:focus {
+   
+       outline: none;
+   }
+   .card {
+   
+       background-color: rgb(184, 184, 245);
+       width: 450px;
+       height: 688px;
+       margin-left: -6.9%;
+       margin-top: -5.4%;
+       padding-bottom: 25px;    
+      
+       
+       
+   }
+   
+   button {
+    
+       padding:7px 10px 7px 10px;
+       color: red;
+       border: none;
+       border-radius: 5px;
+       
+     }
+   
+     button:hover {
+    
+       background-color: rgb(7, 176, 176);
+       transition: 0.3s;
+     }
+   
+     p {
+   
+       font-size: 20px;
+       text-align: justify;
+       margin-top: 3%;
+       padding-right: 20px;
+       
+     }
+   
+     .product-link {
+   
+       text-decoration: none;
+       box-shadow: 0 0.188em 1.550em orange;
+     }
+   
+   
+   /* user panel1 */
+
+   select {
+
+    height: 40px;
+    width: 410px;
+    margin-left: 3.8%;
+   }
+  
+ 
+   
